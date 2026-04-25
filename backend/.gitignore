@@ -15,3 +15,7 @@ __pycache__/
 
 # Logs
 *.log
+
+backend/my_perfect_model/
+*.safetensors
+*.bin
