@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+frontend/build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.log
+
+# Python
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model files (often too large for Git)
+backend/*.pkl
+backend/*.joblib
+venv/
