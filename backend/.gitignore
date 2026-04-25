@@ -1,0 +1,17 @@
+# Python dependencies
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs
+*.log
