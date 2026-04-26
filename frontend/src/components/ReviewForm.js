@@ -169,7 +169,7 @@ export default function ReviewForm() {
             }}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
-            placeholder={`Write your movie review here…\ne.g. "A visually stunning epic that redefines the genre."`}
+            placeholder={`Enter your text snippet for analysis…\ne.g. "A powerful AI that redefines sentiment detection."`}
             rows={5}
             maxLength={1500}
             aria-label="Movie review input"
