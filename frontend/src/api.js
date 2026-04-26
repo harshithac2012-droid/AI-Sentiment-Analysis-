@@ -1,5 +1,4 @@
-// Use relative paths so Vite proxy handles them — no CORS issues
-const API_BASE = ''
+const API_BASE = import.meta.env.VITE_API_URL || '';
 
 async function post(endpoint, body) {
   let res
