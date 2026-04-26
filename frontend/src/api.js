@@ -1,4 +1,4 @@
-const API_BASE = "https://HarshithaC2006-CineRead.hf.space";
+const API_BASE = "http://localhost:5000";
 export async function analyzeSentiment(review) {
   const response = await fetch(`${API_BASE}/analyze`, {
     method: "POST",
