@@ -15,7 +15,7 @@ const Analyze = () => {
         <div className="logo-mark">✦</div>
         <h1 className="app-title">CineRead</h1>
         <p className="app-subtitle">
-          Paste any movie review and let our model decode the emotion behind every word.
+          Paste any Phrase and let our model decode the emotion behind every word.
         </p>
       </header>
 
