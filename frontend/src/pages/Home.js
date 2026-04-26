@@ -52,11 +52,11 @@ const Home = () => {
         <motion.div variants={itemVariants} className="hero-content">
           <span className="hero-badge">AI-Powered Sentiment Analysis</span>
           <h1 className="hero-title">
-            Decode the <span className="text-gradient">Soul</span> of Cinema Reviews
+            Decode the <span className="text-gradient">Soul</span> of Sentiment
           </h1>
           <p className="hero-subtitle">
-            Leverage state-of-the-art machine learning to understand the emotional depth 
-            behind every movie critique. Professional-grade analysis at your fingertips.
+            Leverage state of the art machine learning to understand the emotional depth 
+            behind every sentence. Professional grade analysis at your fingertips.
           </p>
           <div className="hero-btns">
             <Link to="/analyze" className="btn-primary">
