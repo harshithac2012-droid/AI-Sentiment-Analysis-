@@ -7,7 +7,7 @@ const HowItWorks = () => {
     {
       icon: <FileText size={24} />,
       title: "Input Review",
-      description: "Paste a movie review or critique into our secure analysis engine.",
+      description: "Paste a movie Text snippet or Phrase into our secure analysis engine.",
     },
     {
       icon: <Terminal size={24} />,
