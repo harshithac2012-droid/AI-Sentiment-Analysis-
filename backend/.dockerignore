@@ -1,0 +1,30 @@
+# .dockerignore
+# The .dockerignore file excludes files and directories from the build context
+# and helps keep the container image size small.
+
+# Local environment files
+.env
+example.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Git metadata
+.git
+.gitignore
+
+# Model files (already using Gemini, so we don't need local ones)
+*.pkl
+*.joblib
+*.safetensors
+*.bin
+
+# Logs
+*.log
