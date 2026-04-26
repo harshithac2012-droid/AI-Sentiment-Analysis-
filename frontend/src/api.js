@@ -1,4 +1,5 @@
-const API_BASE = process.env.REACT_APP_API_URL || "http://127.0.0.1:5000";
+// src/api.js
+const API_BASE = "https://harshithac2006-cineread.hf.space";
 
 export async function analyzeSentiment(review) {
   const response = await fetch(`${API_BASE}/analyze`, {
@@ -8,11 +9,11 @@ export async function analyzeSentiment(review) {
   });
 
   if (!response.ok) {
-    const err = await response.json().catch(() => ({}));
-    throw new Error(err.error || `Server error: ${response.status}`);
+    throw new Error("The AI backend is not responding. Check your Hugging Face Space.");
   }
 
   return response.json();
+}
   // Expected shape:
   // {
   //   sentiment: "Positive" | "Negative" | "Neutral",
