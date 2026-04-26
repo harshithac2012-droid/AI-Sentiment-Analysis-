@@ -13,7 +13,7 @@ const About = () => {
       <section className="about-hero">
         <h1 className="page-title">About CineRead</h1>
         <p className="about-lead">
-          We believe that every review tells a story. Our mission is to provide the tools 
+          We believe that every phrase tells a story. Our mission is to provide the tools 
           to decode those stories using the power of Artificial Intelligence.
         </p>
       </section>
@@ -22,7 +22,7 @@ const About = () => {
         <div className="about-card main">
           <h2>Our Vision</h2>
           <p>
-            CineRead was born out of a passion for both cinema and technology. 
+            CineRead was born out of a passion for both Emotions and technology. 
             By combining deep learning models with large language models, we've 
             created a platform that doesn't just categorize text, but understands it.
           </p>
@@ -31,8 +31,8 @@ const About = () => {
         <div className="about-card">
           <h2>The Technology</h2>
           <p>
-            Our core classifier is built on top of state-of-the-art transformer 
-            architectures, fine-tuned on thousands of movie reviews. For linguistic 
+            Our core classifier is built on top of state of the art transformer 
+            architectures, fine tuned on thousands of Statement. For linguistic 
             nuance, we integrate Gemini AI to provide deeper insights.
           </p>
         </div>
